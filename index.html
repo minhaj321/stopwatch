@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stop Watch</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
+	<div id="stopwatch"><h1><span>Online </span><span id="purple"> Stop </span>Watch</h1></div>
+<div id="main">
+	<table>
+		<tr id="headings"><th>Minutes</th>
+			<th>Seconds</th>
+			<th>Milliseconds</th>
+		</tr>
+		<tr id="maintr">
+			<td><div  class="line" id="min"><span id="minu">00</span>:</div></td>
+			<td><div  class="line" id="sec"><span id="seconds">00</span>:</div></td>
+			<td><div id="milli">00</div></td>
+		</tr>
+		<tr>
+			<td><button id="start" onclick="start()">Start</button></td>
+			<td><button id="stop" onclick="stop()">Stop</button></td>
+			<td><button id="reset" onclick="reset()">Reset</button></td>
+
+		</tr>
+	</table>
+</div>
+
+</body>
+<script type="text/javascript" src="app.js"></script>
+
+</html>
